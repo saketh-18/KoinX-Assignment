@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function HorizontalMenu() {
   return (
-    <div className='flex'>
-            <div className='menu-h flex flex-col ml-8 w-full mr-8 mt-6'>
+    <div className='flex mr-18 w-full'>
+            <div className='menu-h flex flex-col ml-8 w-full mr-8 mt-6 '>
                 <div className='menu-scroll-container flex justify-between'>
                     <p className='hover:text-sky-600 text-gray-500 text-md font-medium hover:underline hover:underline-offset-4 z-30'>Overview</p>
                     <p className='hover:text-sky-600 text-gray-500 text-md font-medium hover:underline hover:underline-offset-4 z-30'>Fundamentals</p>

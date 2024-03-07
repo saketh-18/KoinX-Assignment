@@ -79,6 +79,13 @@ body::-webkit-scrollbar {
     .btc-attributes {
         margin-right: 1.5rem;
     }
+    .outer-container {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    .tokenomics {
+        display: none;
+    }
 
 }
 
@@ -110,4 +117,18 @@ body::-webkit-scrollbar {
 
 .ad-dialog {
     background-color: #0053FF;
+}
+
+.menu-scroll-container {
+    overflow-x: scroll;
+}
+
+.menu-scroll-container::-webkit-scrollbar {
+    width: 0px;
+}
+
+.menu-scroll-container p {
+    flex: none;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
 }

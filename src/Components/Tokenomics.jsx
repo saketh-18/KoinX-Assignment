@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Tokenomics() {
   return (
-    <div className='flex flex-col ml-6 mr-6 mt-6 bg-white rounded-md'>
+    <div className='flex flex-col ml-6 mr-6 mt-6 bg-white rounded-md tokenomics'>
         <p className='text-xl font-semibold ml-6 mt-6'>Tokenomics</p>
         <p className='text-lg font-semibold ml-6 mt-6 mb-6'>Initial Distribution</p>
         <div className='flex flex-row'>
@@ -12,7 +12,7 @@ export default function Tokenomics() {
             <div className='flex flex-col justify-center'>
                 <div className='flex items-center'>
                     <div className='w-2 h-2 rounded-full bg-blue-400 ml-6'></div>
-                    <p className='ml-1'>Crowdsale Investors : 80%</p>
+                    <p className='ml-1 sm:text-base'>Crowdsale Investors : 80%</p>
                 </div>
                 <div className='flex items-center'>
                     <div className='w-2 h-2 rounded-full bg-yellow-400 ml-6'></div>

@@ -6,7 +6,7 @@ export default function Overview() {
   return (
     <div className='bg-white rounded-md ml-6 mt-6 mr-6 flex flex-col'>
         <p className='text-xl font-semibold ml-6 mt-4'>Performance</p>
-        <div className='flex ml-6 mt-4 items-center'>
+        <div className='flex ml-6 mt-4 items-center mr-6'>
             <div className='flex flex-col'>
                 <p className=' text-xs'>Today's Low</p>
                 <p className='text-sm'>46,930.22</p>
@@ -25,7 +25,7 @@ export default function Overview() {
                 <p className='text-sm'>46,950.22</p>
             </div>
         </div>
-        <div className='flex ml-6 mt-4 items-center'>
+        <div className='flex ml-6 mt-4 items-center mr-6'>
             <div className='flex flex-col'>
                 <p className=' text-xs'>Today's Low</p>
                 <p className='text-sm'>46,930.22</p>

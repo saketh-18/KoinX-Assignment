@@ -56,18 +56,24 @@ export default function Insights() {
           </div>
           <div className='flex flex-col mt-3'>
             <div className='buy w-96 flex justify-start items-center ml-6'>
+              <div className='flex justify-start items-center'>
               <p>Buy </p>
-              <div className='buy-bar h-3 bg-emerald-300 rounded-lg ml-6 mr-6'></div>
+              <div className='sm:h-3 h-2 w-20 sm:w-48 bg-emerald-300 rounded-lg ml-6 mr-6'></div>
+              </div>
               <p>76%</p>
             </div>
             <div className='buy w-96 flex justify-start items-center ml-6'>
+            <div className='flex justify-start items-center'>
               <p>Hold</p>
-              <div className='hold-bar h-3 bg-gray-300 rounded-lg mr-6 ml-6'></div>
+              <div className='w-4 h-2 sm:h-3 bg-gray-300 rounded-lg mr-6 ml-6'></div>
+              </div>
               <p>8%</p>
             </div>
             <div className='buy w-96 flex justify-start items-center ml-6'>
+            <div className='flex justify-start items-center'>
               <p>Sell</p>
-              <div className='sell-bar h-3 bg-red-300 rounded-lg mr-6 ml-6'></div>
+              <div className='w-8 h-2 sm:h-3 bg-red-300 rounded-lg mr-6 ml-6'></div>
+              </div>
               <p>16%</p>
             </div>
           </div>

@@ -12,6 +12,7 @@ import Ymal from './Components/Ymal';
 import Overview from './Components/Overview';
 import HorizontalMenu from './Components/HorizontalMenu';
 import AdDialog from './Components/AdDialog';
+import Path from './Components/Path';
 
 function App() {
 
@@ -19,10 +20,11 @@ function App() {
   return (
     <>
     <TrendingContextProvider>
-      <div className='flex flex-col w-full bg-slate-200'>
+      <div className='flex flex-col w-full bg-slate-200 outer-container'>
         <NavBar />
         <div className='w-full flex ml-2  sm:flex-row flex-col'>
         <div className='w-full sm:w-4/6'>
+          <Path />
           <MainChart />
           <HorizontalMenu />
           <Overview />

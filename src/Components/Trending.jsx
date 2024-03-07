@@ -5,7 +5,7 @@ export default function Trending() {
     const { TrendingCoins } = useContext(TrendingContext);
 
   return (
-    <div className='flex flex-col bg-white rounded mr-12 ml-6 mt-10'>
+    <div className='flex flex-col bg-white rounded mr-6 ml-6 mt-10'>
         <p className='text-lg font-bold ml-6 mt-6'>Trending Coins (24H) </p>
         {TrendingCoins && TrendingCoins.slice(0,3).map((top) => {
             return (
