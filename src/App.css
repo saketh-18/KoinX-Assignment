@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0px ;
+    box-sizing: border-box;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.btc-logo-rank {
+    border-radius: 5px 5px 0px 0px;
+}
+
+.change-pt {
+    background-color: rgba(0, 255, 0, 0.263);
+}
+
+.btc-chart {
+    width: 70%;
+}
+
+#tv_chart_container .tv-header {
+    display: none;
+}
+
+.width-70 {
+    width:70%;
+}
+
+.width-30 {
+    width: 30%;
+}
+
+.container-h {
+    overflow-x: scroll;
+}
+
+.container-h::-webkit-scrollbar {
+    width: 0px;
+}
+
+.outer-item {
+    flex: none;
+}
+.analyst-estimate {
+    border-radius: 50%;
+}
+
+.buy-bar {
+    width: 46%;
+}
+
+.hold-bar {
+    width: 8%;
+}
+
+.sell-bar {
+    width: 16%;
+}
+
+.tokenomics-pie {
+    border-left: 20px solid rgb(250, 204, 21);
+    border-top: 20px solid rgb(96, 165, 250);
+    border-right: 20px solid rgb(96, 165, 250);
+    border-bottom: 20px solid rgb(96, 165, 250);
+    rotate: 45deg;
+}
+
+@media screen and (max-width : 640px) {
+    .scroll-text-block {
+        overflow-y: hidden;
+    }
+    .btc-attributes {
+        margin-right: 1.5rem;
+    }
+
+}
+
+.you-may-also-like-scroll-container {
+    overflow-x: scroll;
+}
+
+.you-may-also-like-scroll-container::-webkit-scrollbar {
+    width: 0px;
+}
+
+.symbol-overview {
+    flex: none;
+    border: 2px solid rgba(128, 128, 128, 0.29);
+}
+
+.play-rotate {
+    rotate: 29deg;
+    align-self: center;
+}
+
+.btc-attributes  p{
+    margin: 8px 0px;
+}
+
+.h-rule {
+    height: 1px;
+}
+
+.ad-dialog {
+    background-color: #0053FF;
+}
