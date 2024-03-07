@@ -45,7 +45,7 @@ export default function MainChart() {
                             <p className='price-inr text-lg font-semibold text-gray-400 ml-6'>₹ {coinData.bitcoin.inr}</p>
                         </div>
                         <div className='change ml-4 flex'>
-                            <p className='change-pt px-2 text-green-500 ml-3 rounded-md'>{coinData.bitcoin.usd_24h_change}%</p> 
+                            <p className='change-pt px-2 text-green-500 ml-3 rounded-md'>{coinData.bitcoin.usd_24h_change.toFixed(2)}%</p> 
                             <p className='text-gray-400 ml-3'> (24H)</p>
                         </div>
                     </div>
